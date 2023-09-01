@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UltratechInformática</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/Ultratech_favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="motorola.html">
+    <link rel="stylesheet" href="note11.html">
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="imagens/logo sem fundo.png" alt="logo da página" class="img_logo">
+        </picture> <!-- logo da empresa -->
+        <div class="container">
+            <form>
+                <input type="text" name="" placeholder="Digite o que procura...">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+        </div>
+        <section>
+            <ul class="menu">
+                <li class="hover-list"><a href="#">Início</a></li>
+                <li class="hover-list"><a href="#">Serviços</a></li>
+                <li class="hover-list"><a href="#">Produtos</a></li>
+                <li class="hover-list"><a href="#">Assistência técnica</a></li>
+                <li class="hover-list"><a href="#">Contato</a></li>
+                <li class="hover-list"><a href="#">Sobre nós</a></li>
+            </ul>
+            
+            <a href="#" class="login">Faça login ou cadastre-se</a>
+        </section>
+    </header>
+    <div class="carousel">
+        <img src="imagens/banner certo.png" alt="Image 1" style="height: 300px;" width="100%">
+        <img src="imagens/banner certo2.png" alt="Image 2" style="height: 300px;"  width="100%">
+        <img src="imagens/banner certo3.png" alt="Image 3" style="height: 300px;"  width="100%">
+      </div>
+      
+      <script>
+        const carousel = document.querySelector(".carousel");
+        const images = document.querySelectorAll(".carousel img");
+        let currentIndex = 0;
+      
+        function showImage(index) {
+          images.forEach((image, i) => {
+            if (i === index) {
+              image.style.display = "block";
+            } else {
+              image.style.display = "none";
+            }
+          });
+        }
+      
+        function nextImage() {
+          currentIndex = (currentIndex + 1) % images.length;
+          showImage(currentIndex);
+        }
+      
+        // Show the first image initially
+        showImage(currentIndex);
+      
+        // Change image every 3 seconds
+        setInterval(nextImage, 3000);
+      </script>
+      <h1>Confira nossa linha de produtos</h1>
+      <div class="categorias">
+        <img src="imagens/cat.1-alterado.png" alt="" class="img-cat">
+        <a href="#">Celulares</a>
+      </div>
+      <div class="categorias">
+        <img src="imagens/cat.2-alterado.png" alt="" class="img-cat2">
+        <a href="#">Computadores</a>
+      </div>
+      <div class="categorias">
+        <img src="imagens/cat.3-alterado.png" alt="" class="img-cat">
+        <a href="#">Fones de ouvido</a>
+      </div>
+      <div class="categorias">
+        <img src="imagens/cat.4-alterado.png" alt="" class="img-cat">
+        <a href="#">Smartwatchs</a>
+      </div>
+      <div class="categorias">
+        <img src="imagens/cat.5-alterado.png" alt="" class="img-cat">
+        <a href="#">Linha Gamer</a>
+      </div>
+      <h2>Lançamentos</h2>
+      <div class="lancamento-atalho">
+        <a href="note11.html">
+          <img src="imagens/Mi 10T Lite.png" alt="" class="img-lancamento">
+          <!-- <div class="lancamento-img" style="background-image: url(imagens/Mi\ 10T\ Lite.png);"> -->
+            <span class="span-lanc-img">MI 10T lite</span>
+          </div>
+          </div>
+        </a>
+      </div>
+      <div class="lancamento-atalho">
+        <a href="note11.html">
+          <img src="imagens/mi note 11 pro.png" alt="" class="img-lancamento">
+          <!-- <div class="lancamento-img" style="background-image: url(imagens/mi\ note\ 11\ pro.png);"> -->
+            <span class="span-lanc-img">Mi Note 11 Pro</span>
+          </div>
+          </div>
+        </a>
+      </div>
+      <div class="lancamento-atalho">
+        <a href="note11.html">
+          <img src="imagens/note 8 pro.png" alt="" class="img-lancamento">
+          <!-- <div class="lancamento-img" style="background-image: url(imagens/note\ 8\ pro.png);"> -->
+            <span class="span-lanc-img">Note8 Pro</span>
+          </div>
+          </div>
+        </a>
+      </div>
+      <div class="lancamento-atalho">
+        <a href="note11.html">
+          <img src="imagens/fotos/redmi-note-11-lançamento.webp" alt="" class="img-lancamento">
+          <!-- <div class="lancamento-img" style="background-image: url(imagens/fotos/redmi-note-11-lançamento.webp);"> -->
+            <span class="span-lanc-img">redmi note 11</span>
+          </div>
+          </div>
+        </a>
+      </div>
+      <div class="lancamento-atalho">
+        <a href="imagens/note 8.png">
+          <img src="imagens/note 8.png" alt="" class="img-lancamento">
+          <!-- <div class="lancamento-img" style="background-image: url(imagens/note\ 8.png);"> -->
+            <span class="span-lanc-img">Redmi Note8</span>
+          </div>
+          </div>
+        </a>
+      </div>
+      <div class="lancamento-atalho">
+        <a href="note11.html">
+          <img src="imagens/Redmi 9.png" alt="" class="img-lancamento">
+          <!-- <div class="lancamento-img" style="background-image: url(imagens/Redmi\ 9.png);"> -->
+            <span class="span-lanc-img">Redmi 9</span>
+          </div>
+          </div>
+        </a>
+      </div>
+      <div class="lancamento-atalho">
+        <a href="note11.html">
+          <img src="imagens/mi-11.png" alt="" class="img-lancamento">
+          <!-- <div class="lancamento-img" style="background-image: url(imagens/mi-11.png);"> -->
+            <span class="span-lanc-img">Mi 11</span>
+          </div>
+          </div>
+        </a>
+      </div>
+</body>
+</html>
