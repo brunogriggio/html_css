@@ -29,13 +29,36 @@
             padding-inline: 56px;
         }
 
-        .input-login{
-            padding: 28px 20px 4px 10px;
+        .input-2{
+        /* width: 100%;
+        height: 100%; */
+        display: flex;
+        font-size: 16px;
+        padding: 22px 30px 4px 10px;
+        border: none;
+        border-bottom: 1px solid #E3D7FF;
+        background-color: transparent;
+        color: #E3D7FF; 
+    
+        }
+        
 
+        .btn-login{
+        margin-right: 44%;
+        padding-top: 20px;
+        width: 0px;
+        height: 0%;
+        font-size: 18px;
         }
 
-        button i{
-            padding-top: 24px;
+        .form{
+        font-size: 18px;
+
+        background-color: #ffffff;
+
+        width: 50px;
+        height: 80px;
+        padding-top: 20px;
         }
 
         
@@ -48,13 +71,13 @@
         </picture> <!-- logo da empresa -->
         <div class="container">
             <form>
-                <input class="input-login" type="text" name="" placeholder="Digite o que procura...">
-                <button type="submit"><i class="fa fa-search"></i></button>
+                <input class="input-2" type="text" name="" placeholder="Digite o que procura...">
+                <button class="btn-login" type="submit"><i class="fa fa-search"></i></button>
               </form>
         </div>
         <section>
             <ul class="menu">
-                <li class="hover-list"><a href="#">Início</a></li>
+                <li class="hover-list"><a href="inicio">Início</a></li>
                 <li class="hover-list"><a href="#">Serviços</a></li>
                 <li class="hover-list"><a href="#">Produtos</a></li>
                 <li class="hover-list"><a href="#">Assistência técnica</a></li>
@@ -65,6 +88,9 @@
     </header>
     <form action="" class="form">
         <input type="text" placeholder="Digite seu nome">Nome
+        <input type="text" placeholder="Digite seu sobrenome">Sobrenome
+        <input type="email" placeholder="Digite um email válido">Email
+        <input type="password" placeholder="Digite sua senha">Senha
     </form>
 </body>
 </html>
