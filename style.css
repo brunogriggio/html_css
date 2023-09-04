@@ -117,7 +117,6 @@ button:hover i{
 }
 
 .login{
-    
     text-decoration: none;
     color: #E3D7FF;
     display: flex;
@@ -129,6 +128,7 @@ button:hover i{
 section > a{
     background-image: url(imagens/person-circle.svg);
     color: #E3D7FF;
+    background-color: red;
     background-repeat: no-repeat;
 }
 
@@ -357,6 +357,7 @@ div > img{
   .categorias{
     display: inline-block;
     padding: 20px;
+    margin: 0 8px;
   }
   
   .img-cat{
