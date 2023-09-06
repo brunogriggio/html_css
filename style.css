@@ -43,10 +43,9 @@ ul.menu li a {
 ul.menu li a:hover {
   padding: 8px;
   border-radius: 10px;
-    background-color: #E3D7FF;
-    /* color: #326694; */
-    text-decoration: underline;
-    color: #092040;
+  background-color: #E3D7FF;
+  color: #092040;
+  transition-duration: 0.5s;
 }
 
 
@@ -122,14 +121,28 @@ button:hover i{
     display: flex;
     margin: auto;
     width: fit-content;   
-    margin-top: -3%;
+    margin-top: -4%;
     margin-right: 10%;
+    border: solid #E3D7FF 2px;
+    border-radius: 8px;
+    padding: 4px;
+    transition-duration: 0.5s;
 }
+
+.material-icons{
+  margin: -3px 6px 0px 0px;
+  color: #E3D7FF;
+}
+
+.material-icons:hover{
+  color: #000000;
+  
+}
+
 section > a{
     
     /* background-image: url(imagens/person-circle.svg); */
     color: #4202d8;
-    background-color: red;
     background-repeat: no-repeat;
 }
 
