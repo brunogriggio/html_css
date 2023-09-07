@@ -12,6 +12,8 @@ body{
 header{
     background-color: #092040;
     height: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 ul.menu {
@@ -134,7 +136,7 @@ button:hover i{
   color: #E3D7FF;
 }
 
-.material-icons:hover{
+.login:hover .material-icons{
   color: #000000;
   
 }
@@ -166,6 +168,7 @@ div > img{
     display: flex;
     margin: auto;
     align-content: center;
+    width: 100%;
 }
 
 .hover-list {
