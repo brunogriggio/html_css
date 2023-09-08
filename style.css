@@ -9,11 +9,12 @@ body{
     width: 100%;
 }
 
+
 header{
     background-color: #092040;
     height: 150px;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 ul.menu {
@@ -21,7 +22,6 @@ ul.menu {
     padding: 15px;
     margin: 5px;
     text-align: center;
-    /* color: #E3D7FF; */
     display: flex;
     height: 30px;
     width: 84%;
@@ -40,10 +40,11 @@ ul.menu li {
 ul.menu li a {
     text-decoration: none;
     color: #E3D7FF;
+    
 }
 
 ul.menu li a:hover {
-  padding: 8px;
+  padding: 7px;
   border-radius: 10px;
   background-color: #E3D7FF;
   color: #092040;
@@ -86,6 +87,7 @@ ul.menu li a:hover {
     border-bottom: 1px solid #E3D7FF;
     background-color: transparent;
     color: #E3D7FF;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -195,7 +197,16 @@ div > img{
 
   h1{
     text-align: center;
-    margin: 20px 0 10px 0;
+    margin: 48px 0 10px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #092040;
+  }
+
+  h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #092040;
   }
 
   .item-atalho{
@@ -240,6 +251,7 @@ div > img{
     margin-left: 30px;
     color: #000000;
     margin: auto 75px 0 75px;
+    font-family: 'Open Sans', sans-serif;
 
   }
   
@@ -381,6 +393,7 @@ div > img{
     display: inline-block;
     padding: 20px;
     margin: 0 8px;
+    font-family: 'Open Sans', sans-serif;
   }
   
   .img-cat{
@@ -394,7 +407,7 @@ div > img{
   }
 
   .categorias a{
-    font-size: 18px;
+    font-size: 17px;
     color: black;
     cursor: pointer;
     display: block;
@@ -404,5 +417,4 @@ div > img{
 
   .categorias a:hover{
     color: #6891c5;
-    font-size: 120%;
   }
