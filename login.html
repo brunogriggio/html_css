@@ -7,8 +7,11 @@
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="media-query-login.css">
+    <link rel="stylesheet" href="media-query.css">
     <link rel="shortcut icon" href="imagens/Ultratech_favicon.ico" type="image/x-icon">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Slab:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet">
 
@@ -186,6 +189,8 @@
 </head>
 <body>
     <header>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+
         <picture>
             <img src="imagens/logo sem fundo.png" alt="logo da página" class="img_logo">
         </picture> <!-- logo da empresa -->
@@ -196,14 +201,16 @@
               </form>
         </div>
         <section>
-            <ul class="menu">
-                <li class="hover-list"><a href="index.html">Início</a></li>
-                <li class="hover-list"><a href="#">Serviços</a></li>
-                <li class="hover-list"><a href="#">Produtos</a></li>
-                <li class="hover-list"><a href="#">Assistência técnica</a></li>
-                <li class="hover-list"><a href="#">Contato</a></li>
-                <li class="hover-list"><a href="#">Sobre nós</a></li>
-            </ul>
+            <menu id="itens">
+              <ul class="menu">
+                  <li class="hover-list"><a href="index.html">Início</a></li>
+                  <li class="hover-list"><a href="#">Serviços</a></li>
+                  <li class="hover-list"><a href="#produtos">Produtos</a></li>
+                  <li class="hover-list"><a href="#">Assistência técnica</a></li>
+                  <li class="hover-list"><a href="#">Contato</a></li>
+                  <li class="hover-list"><a href="#">Sobre nós</a></li>
+              </ul>
+            </menu>
         </section>
     </header>
    <form action="" class="form-login">
@@ -228,5 +235,14 @@
 
     <button class="botao" type="submit">Login</button> 
    </form>
+   <script>
+    function clickMenu() {
+      if(itens.style.display =='block') {
+        itens.style.display = 'none'
+      } else {
+        itens.style.display = 'block'
+      }
+    }
+  </script>
 </body>
 </html>
