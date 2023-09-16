@@ -71,7 +71,7 @@ Telas grandes: de 1200px pra frente*/
     }
 
     .login{
-        display: ;
+        display: flex;
         width: 140px;   
         margin-top: -4%;
         margin-right: 26%;
@@ -113,6 +113,8 @@ Telas grandes: de 1200px pra frente*/
         right: 8px;
         cursor: pointer;
       }
+
+      
 
       
     
