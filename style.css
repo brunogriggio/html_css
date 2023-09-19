@@ -267,7 +267,7 @@ div > img{
  .img-dentro1
   {
     width: 100%;
-    hei ght: 100%;
+    height: 100%;
     padding: 6px 2px 0px 10px; /* e aqui*/
     -webkit-transition: -webkit-transform .5s ease;
     transition: transform .5s ease; 

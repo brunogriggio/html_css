@@ -93,18 +93,37 @@ Telas grandes: de 1200px pra frente*/
       }
 
       .lancamento-atalho{
+       
+        width: 100%;
         display: block;
         margin: auto; 
         border: none;
         box-shadow: none;
         padding: 30px;
+        
 
       }
 
       div .img-lancamento{
-        width: 60%;
-        height: 60%;
+        display: block;
+        margin: auto;
+        width: 70%;
+        height: 70%;
+        margin-top: 40px;
 
+      }
+
+      .span-lanc-img{
+        display: block;
+        text-align: center;
+        transform: translate( 50% , 50%);
+        width: 100px;
+        height: 28px;
+        padding-top: 8px;
+        margin-top: -10px;
+        border-radius: 8px;
+        background-color: black;
+        color: white;
       }
 
       .wattsbtn{
