@@ -404,11 +404,32 @@ div > img{
   }
 
   div.celulares{
-    display: flex;
+    display: inline-block;
     margin: auto;
-    align-content: center;
-    width: 100%;
     
+  }
+
+  .linha_celulares{
+    display: inline-block;
+    width: 290px;
+    padding: 10px;
+    margin: 10px 50px 28px 50px;
+    cursor: pointer;
+  }
+
+  button{
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #224877;
+    color: #ffffff;
+    border: none;
+    /* right: 50%; */
+    display: flex;
+    margin-inline: auto;
+    cursor: pointer;
+    width: 100px;
+    justify-content: center;
+    content: 'especificações';
   }
   
   .img-cat{
