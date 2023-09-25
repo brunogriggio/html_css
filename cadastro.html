@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="media-query-login.css">
+    <!-- <link rel="stylesheet" href="media-query.css"> -->
+    <link rel="shortcut icon" href="imagens/Ultratech_favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Slab:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Playfair+Display&family=Roboto+Slab:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-color: #234978;
+        }
+        header{
+            height: 120px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+        }
+
+        .img_logo{
+            height: 120px;
+        }
+
+        ul.menu{
+            padding: 20px;
+            font-size: 17px;
+        }
+
+        ul.menu li{
+            padding-inline: 56px;
+        }
+
+        .input-2{
+        /* width: 100%;
+        height: 100%; */
+        display: flex;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+
+
+        padding: 38px 30px 4px 10px;
+        border: none;
+        border-bottom: 1px solid #E3D7FF;
+        background-color: transparent;
+        color: #E3D7FF; 
+    
+        }
+        
+
+        .btn-login{
+        font-size: 18px;
+        width: 0;
+        height: 0;
+        position: absolute;
+        margin-top: -26px;
+        margin-left: 74px;
+        }
+
+        .form{
+        font-size: 18px;
+        
+        background-color: #ffffff;
+
+        width: 50px;
+        height: 80px;
+        padding-top: 20px;
+        }
+
+        
+        /* Elementos de tag <fieldset>*/
+        fieldset {
+            border: 0;
+        }
+
+        /* Elemento de tag <body> */
+        body{
+            /* background-color: #F0F8FF; */
+            font-family: 'Playfair Display', serif;
+            font-size: 16px;
+            /* margin-left: 36%;
+            margin-top: 2%; */
+        }
+
+        .form-login{
+            border: 2px solid #d8ebfd;
+            box-shadow: 4px 5px 4px 0px #092040;
+
+            border-radius: 16px;
+            width: 35%;
+            height: 350px;
+            padding: 20px;
+            margin-left: 31%;
+            margin-top: 4%;
+        }
+
+        /* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
+        input, textarea, button {
+            font-family: sans-serif;
+            font-size: 1em;
+            color: #234978;
+            border-radius: 5px;
+        }
+
+        /* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
+        .grupo:before, .grupo:after {
+            display: table;
+        }
+
+        /* Elementos de classe "grupo" no estado da pseudoclasse "after" */
+        .grupo:after {
+            clear: both;
+        }
+
+        /* Elementos de classe "campo" */
+        .campo {
+            margin-bottom: 1em;
+        }
+
+        /* Elementos de classe "campo" de tag <label> */
+        .campo label {
+            margin-bottom: 0.2em;
+            color: #ffffff;
+            display: block;
+        }
+
+        /* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
+        fieldset.grupo .campo {
+            float:  left;
+            margin-right: 1em;
+        }
+
+        /* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
+        .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+            padding: 0.2em;
+            border: 1px solid #6891c5;
+            box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+            display: block;
+        }
+
+
+        /* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
+        .campo input:focus, .campo select:focus, .campo textarea:focus {
+            background: #d5d8ff;
+        }
+
+        /* Elemento de classe "botao" */
+        .botao {
+            font-size: 1.2em;
+            background: #6891c5;
+            border: 0;
+            margin-bottom: 1em;
+            color: #ffffff;
+            padding: 0.4em 0.8em;
+            box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+            position: absolute;
+            top: 78%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%)
+        }
+
+        /* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+        .botao:hover {
+            background: #092040;
+            box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+            text-shadow: none;
+        }
+
+        /* Elementos de classe botão e de tag <select> */
+        .botao, select{
+            cursor: pointer;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+
+        <picture>
+            <img src="imagens/logo sem fundo.png" alt="logo da página" class="img_logo">
+        </picture> <!-- logo da empresa -->
+        <div class="container">
+            <form>
+                <input class="input-2" type="text" name="" placeholder="Digite o que procura...">
+                <button class="btn-login" type="submit"><i class="fa fa-search"></i></button>
+              </form>
+        </div>
+        <section>
+            <menu id="itens">
+              <ul class="menu">
+                  <li class="hover-list"><a href="index.html">Início</a></li>
+                  <li class="hover-list"><a href="#">Serviços</a></li>
+                  <li class="hover-list"><a href="#produtos">Produtos</a></li>
+                  <li class="hover-list"><a href="#">Assistência técnica</a></li>
+                  <li class="hover-list"><a href="#">Contato</a></li>
+                  <li class="hover-list"><a href="#">Sobre nós</a></li>
+              </ul>
+            </menu>
+        </section>
+    </header>
+   <form action="" class="form-login">
+    <fieldset class="grupo">
+        <div class="campo">
+            <label for="nome"><strong>Nome</strong></label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+        <div class="campo">
+            <label for="sobrenome"><strong>Sobrenome</strong></label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+        </div>
+    </fieldset>
+    <div class="campo">
+        <label for="email"><strong>Email</strong></label>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <div class="campo">
+        <label for="password"><strong>Senha</strong></label>
+        <input type="password" name="senha" id="senha" required>
+    </div>
+
+    <button class="botao" type="submit">Login</button> 
+   </form>
+   <script>
+    function clickMenu() {
+      if(itens.style.display =='block') {
+        itens.style.display = 'none'
+      } else {
+        itens.style.display = 'block'
+      }
+    }
+  </script>
+</body>
+</html>

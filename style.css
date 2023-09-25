@@ -126,6 +126,28 @@ button:hover i{
     color: #E3D7FF;
 }
 
+a.sign, a.sign-up {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a.sign:hover, a.sign-up:hover{
+  color: red;
+} 
+
+p {
+  display: block;
+  position: absolute;
+  right: 130px;
+  top: 46px;
+  color: white;
+  width: 90px;
+  /* border: solid white 2px; */
+  border-radius: 10px;
+  padding: 7px;
+}
+
 .login{
     text-decoration: none;
     color: #E3D7FF;
@@ -141,9 +163,13 @@ button:hover i{
 }
 
 .material-icons{
-  margin: -3px 6px 0px 0px;
+  margin: 0px 0px 0px -36px;
   color: #E3D7FF;
+  top: 32px;
+  position: absolute;
+  font-size: 28px;
 }
+
 
 .login:hover .material-icons{
   color: #000000;
