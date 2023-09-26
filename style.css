@@ -437,14 +437,28 @@ div > img{
 
   .linha_celulares{
     display: inline-block;
-    width: 290px;
+    width: 200px;
     padding: 10px;
     margin: 10px 50px 28px 50px;
     cursor: pointer;
   }
 
-  button{
-    padding: 16px;
+  /* button{
+    
+    border-radius: 8px;
+    background-color: #224877;
+    color: #ffffff;
+    border: none;
+    
+    display: flex;
+    margin-inline: auto;
+    cursor: pointer;
+    width: 100px;
+    justify-content: center;
+    content: 'especificações';
+  } */
+
+  #button-detalhe{
     border-radius: 8px;
     background-color: #224877;
     color: #ffffff;
@@ -454,6 +468,7 @@ div > img{
     margin-inline: auto;
     cursor: pointer;
     width: 100px;
+    padding: 12px;
     justify-content: center;
     content: 'especificações';
   }
