@@ -136,7 +136,7 @@ a.sign:hover, a.sign-up:hover{
   color: red;
 } 
 
-p {
+.sign-in{
   display: block;
   position: absolute;
   right: 130px;
@@ -258,11 +258,13 @@ div > img{
 
   .lancamento-atalho{
     display: inline-block;
+    position: relative;
     padding: 15px; 
-    border: solid 2px #E3D7FF;
+    /* border: solid 2px #E3D7FF; */
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px #f0eef4;
+    box-shadow: 2px 2px 16px #dbdadd;
     margin: 10px 16px 16px;
+    height: 226px;
   }
 
   /* .img-lancamento{
@@ -281,11 +283,13 @@ div > img{
   .span-lanc-img{
     position: absolute;
     display: flex;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     color: #000000;
-    margin: auto 75px 0 75px;
+    /* margin: auto 75px 0 75px; */
     font-family: 'Open Sans', sans-serif;
-
+    /* transform: translate(0%, -32%); */
+    left: 50%;
+    transform: translate(-50%, -15%);
   }
   
 
@@ -501,4 +505,13 @@ div > img{
     bottom: 10px;
     right: 10px;
     cursor: pointer;
+  }
+
+  .footer-p{
+    background-color: #4202d8;
+    color: #ffffff;
+    padding: 2px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto' , 'sans-serif';
   }
