@@ -15,6 +15,7 @@ header{
     height: 150px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    box-shadow: 4px 1px 8px 0px #092040;
 }
 
 span#burguer{
@@ -133,7 +134,12 @@ a.sign, a.sign-up {
 }
 
 a.sign:hover, a.sign-up:hover{
-  color: red;
+  color: black;
+  background-color: white;
+  font-size: 17px;
+  text-decoration: none;
+ 
+  
 } 
 
 .sign-in{
@@ -474,7 +480,12 @@ div > img{
     width: 100px;
     padding: 12px;
     justify-content: center;
-    content: 'especificações';
+    margin-top: 10px;
+  }
+
+  #button-detalhe:hover {
+    background-color: #0551c6;
+    box-shadow: 4px 4px 12px #867e7e;
   }
   
   .img-cat{

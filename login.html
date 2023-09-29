@@ -20,9 +20,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
     <style>
+        
         body{
-            background-color: #234978;
+            background-image: url(imagens/wallpaper-predio.jpeg);
+            background-position: right top;
+            background-size: cover;
         }
+
         header{
             height: 120px;
             font-family: 'Roboto', sans-serif;
@@ -52,7 +56,7 @@
 
         padding: 38px 30px 4px 10px;
         border: none;
-        border-bottom: 1px solid #E3D7FF;
+        border-bottom: 1px solid #fff2d7;
         background-color: transparent;
         color: #E3D7FF; 
     
@@ -72,7 +76,7 @@
         .form{
         font-size: 18px;
         
-        background-color: #ffffff;
+        /* background-color: #ffffff; */
 
         width: 50px;
         height: 80px;
@@ -95,9 +99,9 @@
         }
 
         .form-login{
-            border: 2px solid #d8ebfd;
-            box-shadow: 4px 5px 4px 0px #092040;
-
+            border: 2px solid #187fdf;
+           
+           
             border-radius: 16px;
             width: 35%;
             height: 350px;
@@ -105,6 +109,34 @@
             margin-left: 31%;
             margin-top: 4%;
         }
+
+        .nome-login ,.email-login, .senha-login{
+            display: flex;
+            width: 45px;
+            padding: 2px;
+            font-weight: normal;
+            background-color: #484848;
+        }
+
+        .sobrenome-login{
+            display: flex;
+            width: 83px;
+            padding: 2px;
+            font-weight: normal;
+            background-color: #484848;
+        }
+
+        /* .email-login{
+            display: flex;
+            width: 45px;
+            background-color: #000000;
+        }
+
+        .senha-login{
+            display: flex;
+            width: 45px;
+            background-color: #000000;
+        } */
 
         /* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
         input, textarea, button {
@@ -144,16 +176,9 @@
 
         /* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
         .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
-            padding: 0.2em;
-            border: 1px solid #6891c5;
-            box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+            padding: 4px;
+            border: 1px solid white;
             display: block;
-        }
-
-
-        /* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
-        .campo input:focus, .campo select:focus, .campo textarea:focus {
-            background: #d5d8ff;
         }
 
         /* Elemento de classe "botao" */
@@ -217,20 +242,20 @@
    <form action="" class="form-login">
     <fieldset class="grupo">
         <div class="campo">
-            <label for="nome"><strong>Nome</strong></label>
+            <label for="nome"><strong class="nome-login">Nome</strong></label>
             <input type="text" name="nome" id="nome" required>
         </div>
         <div class="campo">
-            <label for="sobrenome"><strong>Sobrenome</strong></label>
+            <label for="sobrenome"><strong class="sobrenome-login">Sobrenome</strong></label>
             <input type="text" name="sobrenome" id="sobrenome" required>
         </div>
     </fieldset>
     <div class="campo">
-        <label for="email"><strong>Email</strong></label>
+        <label for="email"><strong class="email-login">Email</strong></label>
         <input type="email" name="email" id="email" required>
     </div>
     <div class="campo">
-        <label for="password"><strong>Senha</strong></label>
+        <label for="password"><strong class="senha-login">Senha</strong></label>
         <input type="password" name="senha" id="senha" required>
     </div>
 
