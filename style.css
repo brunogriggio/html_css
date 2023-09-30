@@ -442,7 +442,7 @@ div > img{
   div.celulares{
     display: inline-block;
     margin: auto;
-    
+    overflow: hidden;
   }
 
   .linha_celulares{
@@ -451,6 +451,13 @@ div > img{
     padding: 10px;
     margin: 10px 50px 28px 50px;
     cursor: pointer;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+  }
+
+  .linha_celulares:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   /* button{
