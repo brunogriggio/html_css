@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
     
     <link rel="stylesheet" href="media-query-login.css">
@@ -21,7 +21,11 @@
 
     <style>
         body{
-            background-color: #234978;
+            background-image: url(imagens/wallpaper-predio.jpeg);
+            background-position: right top;
+            background-size: cover;
+            font-family: 'Playfair Display', serif;
+            font-size: 16px;
         }
         header{
             height: 120px;
@@ -103,6 +107,30 @@
             padding: 20px;
             margin-left: 31%;
             margin-top: 4%;
+        }
+
+        .nome-login ,.email-login, .senha-login{
+            display: flex;
+            width: 45px;
+            padding: 2px;
+            font-weight: normal;
+            background-color: #092040;
+        }
+
+        .sobrenome-login{
+            display: flex;
+            width: 83px;
+            padding: 2px;
+            font-weight: normal;
+            background-color: #092040;
+        }
+
+        .confirm-senha-login{
+            display: flex;
+            width: 72px;
+            padding: 2px;
+            font-weight: normal;
+            background-color: #092040;
         }
 
         /* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
@@ -217,24 +245,24 @@
    <form action="" class="form-login">
     <fieldset class="grupo">
         <div class="campo">
-            <label for="nome"><strong>Nome</strong></label>
+            <label for="nome"><strong class="nome-login">Nome</strong></label>
             <input type="text" name="nome" id="nome" required>
         </div>
         <div class="campo">
-            <label for="sobrenome"><strong>Sobrenome</strong></label>
+            <label for="sobrenome"><strong class="sobrenome-login">Sobrenome</strong></label>
             <input type="text" name="sobrenome" id="sobrenome" required>
         </div>
     </fieldset>
     <div class="campo">
-        <label for="email"><strong>Email</strong></label>
+        <label for="email"><strong class="email-login">Email</strong></label>
         <input type="email" name="email" id="email" required>
     </div>
     <div class="campo">
-        <label for="password"><strong>Senha</strong></label>
+        <label for="password"><strong class="senha-login">Senha</strong></label>
         <input type="password" name="senha" id="senha" required>
     </div>
     <div class="campo">
-        <label for="password"><strong>Confirme sua senha</strong></label>
+        <label for="password"><strong class="confirm-senha-login">Confirme sua senha</strong></label>
         <input type="password" name="senha" id="senha" required>
     </div>
 
