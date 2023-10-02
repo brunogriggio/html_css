@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nossos fones</title>
+    <title>Fones</title>
     <link rel="stylesheet" href="index.html">
     <link rel="shortcut icon" href="imagens/Ultratech_favicon.ico" type="image/x-icon"> <!--favIcon-->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--acima icone lupa -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--icone person-->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Slab:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet"> <!--fonte dos titulos-->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
 </head>
 <body>
     <header>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
         <picture>
             <img src="imagens/logo sem fundo.png" alt="logo da página" class="img_logo">
         </picture> <!-- logo da empresa -->
@@ -66,7 +68,16 @@
         </div>
         </div>
     </div>
-
+    
+    <script>
+        function clickMenu() {
+          if(itens.style.display =='block') {
+            itens.style.display = 'none'
+          } else {
+            itens.style.display = 'block'
+          }
+        }
+      </script>
 
     
 </body>

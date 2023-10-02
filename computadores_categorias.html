@@ -11,9 +11,11 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--icone person-->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Slab:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet"> <!--fonte dos titulos-->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
 </head>
 <body>
     <header>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
         <picture>
             <img src="imagens/logo sem fundo.png" alt="logo da página" class="img_logo">
         </picture> <!-- logo da empresa -->
@@ -73,7 +75,16 @@
             <button id="button-detalhe">Detalhes</button>
         </div>
     </div>
-
+    
+    <script>
+        function clickMenu() {
+          if(itens.style.display =='block') {
+            itens.style.display = 'none'
+          } else {
+            itens.style.display = 'block'
+          }
+        }
+      </script>
 
     
 </body>
