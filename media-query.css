@@ -35,24 +35,16 @@ Telas grandes: de 1200px pra frente*/
         display: block;
         position: sticky;
         padding-left: 62%;
-        margin-top: 36px;
-        
-        
+        margin-top: 36px;  
     }
 
     ul.menu {
-        /* list-style: none;
-        padding-top: 20px;
-        margin: 0px;
-        text-align: center; */
         display: block;
         background-color: #092040;
         color: white;
         height: 10%;
         width: 90px;
         padding-top: 12%;
-        /* height: 8px; */
-        
     }
 
     ul.menu li {
@@ -65,11 +57,8 @@ Telas grandes: de 1200px pra frente*/
     }
 
     .input-1{
-        
         padding: 0px 2px 8px 30px;
-        margin-top: -30px;
-        
-        
+        margin-top: -30px; 
     }
 
     .button{
@@ -249,6 +238,55 @@ input, textarea, button {
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
+
+/* cadastro */
+.img_logo-cadastro{
+  height: 98px;
+  margin-top: 25px;
+  margin-left: 70%;
+}
+
+#burguer-cadastro{
+  margin-left: 40px;
+  margin-top: 30px;
+  font-size: 38px;
+}
+
+ul.menu-cadastro {
+  list-style: none;
+  display: block;
+  background-color: #092040;
+  color: white;
+  height: 10%;
+  width: 90px;
+  padding-top: 12%;
+}
+
+.menu-cadastro{
+  display: block;
+  position: sticky;
+  padding-left: 62%;
+  margin-top: 36px;  
+}
+
+ul.menu-cadastro li {
+  padding-inline: 8px;
+  padding: 10px;
+}
+
+ul.menu-cadastro li a {
+  text-decoration: none;
+  color: #E3D7FF;
+}
+
+menu > ul.menu-cadastro{
+  display: block;
+  position: sticky;
+  margin-top: 32px;
+  margin-left: -300px;  
+}
+
+
 
 }
 
