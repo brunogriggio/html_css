@@ -48,15 +48,13 @@ ul.menu li {
 
 ul.menu li a {
     text-decoration: none;
-    color: #E3D7FF;
+    color: #ffffff;
     
 }
 
 ul.menu li a:hover {
-  padding: 7px;
-  border-radius: 10px;
-  background-color: #E3D7FF;
-  color: #092040;
+  color: #E3D7FF;
+  text-decoration: underline;
   transition-duration: 0.5s;
 }
 
@@ -134,10 +132,7 @@ a.sign, a.sign-up {
 }
 
 a.sign:hover, a.sign-up:hover{
-  color: black;
-  background-color: white;
-  font-size: 17px;
-  text-decoration: none;
+  color: #187fdf;
  
   
 } 
@@ -146,7 +141,7 @@ a.sign:hover, a.sign-up:hover{
   display: block;
   position: absolute;
   right: 130px;
-  top: 46px;
+  top: 23px;
   color: white;
   width: 90px;
   /* border: solid white 2px; */
