@@ -184,7 +184,7 @@
         }
 
         /* Elemento de classe "botao" */
-        .botao {
+        .botao-cadastro {
             font-size: 1.2em;
             background: #6891c5;
             border: 0;
@@ -194,7 +194,7 @@
             box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
             text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
             position: absolute;
-            top: 80%;
+            top: 84%;
             left: 50%;
             margin-right: -50%;
             transform: translate(-50%, -50%)
@@ -221,7 +221,7 @@
         <span id="burguer-cadastro" class="material-icons" onclick="clickMenu()">menu</span>
 
         <picture>
-            <img src="imagens/logo sem fundo.png" alt="logo da página" class="img_logo-cadastro">
+            <img src="imagens/logo sem fundo.png" alt="logo da página" class="img_logo">
         </picture> <!-- logo da empresa -->
         <div class="container">
             <form>
@@ -231,7 +231,7 @@
         </div>
         <section>
             <menu id="itens">
-              <ul class="menu-cadastro">
+              <ul class="menu" id="menu-cadastro">
                   <li class="hover-list"><a href="index.html">Início</a></li>
                   <li class="hover-list"><a href="#">Serviços</a></li>
                   <li class="hover-list"><a href="#produtos">Produtos</a></li>
@@ -266,7 +266,7 @@
         <input type="password" name="senha" id="senha" required>
     </div>
 
-    <button class="botao" type="submit">Cadastrar</button> 
+    <button class="botao-cadastro" type="submit">Cadastrar</button> 
    </form>
    <script>
     function clickMenu() {

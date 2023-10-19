@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
-    
-    <!-- <link rel="stylesheet" href="media-query-login.css"> -->
     <link rel="stylesheet" href="media-query.css">
     <link rel="shortcut icon" href="imagens/Ultratech_favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -18,6 +16,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Playfair+Display&family=Roboto+Slab:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        h1{
+            margin: 15px 0 -43px 0;
+        }
+
+        .botao-login {
+            font-size: 1.2em;
+            background: #6891c5;
+            border: 0;
+            margin-bottom: 1em;
+            color: #ffffff;
+            padding: 0.4em 0.8em;
+            box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+            position: absolute;
+            top: 84%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%)
+        }
+
+        .botao-login:hover {
+            cursor: pointer;
+            background: #092040;
+            box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+            text-shadow: none;
+        }
+    </style>
 
 </head>
 <body class="body-login">
@@ -67,7 +93,7 @@
         <input type="password" name="senha" id="senha" required>
     </div>
 
-    <button class="botao" type="submit">Login</button> 
+    <button class="botao-login" type="submit">Login</button> 
    </form>
    <script>
     function clickMenu() {

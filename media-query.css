@@ -252,7 +252,7 @@ input, textarea, button {
   font-size: 38px;
 }
 
-ul.menu-cadastro {
+ul#menu-cadastro {
   list-style: none;
   display: block;
   background-color: #092040;
@@ -262,24 +262,24 @@ ul.menu-cadastro {
   padding-top: 12%;
 }
 
-.menu-cadastro{
+#menu-cadastro{
   display: block;
   position: sticky;
   padding-left: 62%;
   margin-top: 36px;  
 }
 
-ul.menu-cadastro li {
+ul#menu-cadastro li {
   padding-inline: 8px;
   padding: 10px;
 }
 
-ul.menu-cadastro li a {
+ul#menu-cadastro li a {
   text-decoration: none;
   color: #E3D7FF;
 }
 
-menu > ul.menu-cadastro{
+menu > ul#menu-cadastro{
   display: block;
   position: sticky;
   margin-top: 32px;
