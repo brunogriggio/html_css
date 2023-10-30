@@ -13,6 +13,7 @@ Telas grandes: de 1200px pra frente*/
 }
 
 @media screen and (max-width: 600px) { /*Telas pequenas*/
+  /*gerais*/
   form{
     display: none;
   }
@@ -185,13 +186,12 @@ Telas grandes: de 1200px pra frente*/
 
     .form-login{
       border: 2px solid white;
-      width: 290px;
-      height: 398px;
-     
+      width: 290px; /*no style ta 35%*/
+      height: 398px; /*350 px no style*/
       border-radius: 16px;
       display: block;
-      padding: 18px 0px 0px 18px;
-      margin-left: 10%;
+      padding: 18px 0px 0px 18px; /*20 px no style*/
+      margin-left: 10%; /*31% E margin top 4%*/
   }
 
   .nome-login ,.email-login, .senha-login{
@@ -240,6 +240,10 @@ input, textarea, button {
 }
 
 /* cadastro */
+.cadastro{
+  height: 110px;
+}
+
 .img_logo-cadastro{
   height: 98px;
   margin-top: 25px;
@@ -247,7 +251,7 @@ input, textarea, button {
 }
 
 #burguer-cadastro{
-  margin-left: 40px;
+  margin-left: 310px;
   margin-top: 30px;
   font-size: 38px;
 }
@@ -265,7 +269,7 @@ ul#menu-cadastro {
 #menu-cadastro{
   display: block;
   position: sticky;
-  padding-left: 62%;
+  padding-left: 22%;
   margin-top: 36px;  
 }
 
@@ -276,14 +280,24 @@ ul#menu-cadastro li {
 
 ul#menu-cadastro li a {
   text-decoration: none;
-  color: #E3D7FF;
+  color: white;
 }
 
 menu > ul#menu-cadastro{
   display: block;
   position: sticky;
-  margin-top: 32px;
-  margin-left: -300px;  
+  margin-top: 40px;
+  margin-left: 4px;  
+}
+
+.form-cadastro{
+  border: 2px solid white;
+  width: 300px; /*no style ta 35%*/
+  height: 480px; /*350 px no style*/
+  border-radius: 16px;
+  display: block;
+  padding: 18px 0px 0px 18px; /*20 px no style*/
+  margin-left: 10%; /*31% E margin top 4%*/
 }
 
 
