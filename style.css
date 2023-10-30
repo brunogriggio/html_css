@@ -173,8 +173,6 @@ section > a{
     background-repeat: no-repeat;
 }
 
-
-
 section > a:hover{
     color: #092040;
     border-radius: 10px;
@@ -336,7 +334,6 @@ div .img-lancamento{
     -webkit-transition: -webkit-transform .5s ease;
     transition: transform .5s ease; 
 }
-  
   
 .img-dentro:hover{
     -webkit-transform: rotate(20deg);

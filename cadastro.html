@@ -6,17 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
-    
     <link rel="stylesheet" href="media-query-login.css">
     <link rel="stylesheet" href="media-query.css">
+
     <link rel="shortcut icon" href="imagens/Ultratech_favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Slab:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Playfair+Display&family=Roboto+Slab:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
     <style>
@@ -27,6 +24,7 @@
             font-family: 'Playfair Display', serif;
             font-size: 16px;
         }
+
         header{
             height: 120px;
             font-family: 'Roboto', sans-serif;
@@ -47,55 +45,41 @@
         }
 
         .input-2{
-        /* width: 100%;
-        height: 100%; */
-        display: flex;
-        font-size: 16px;
-        font-family: 'Roboto', sans-serif;
-        padding: 38px 30px 4px 10px;
-        border: none;
-        border-bottom: 1px solid #E3D7FF;
-        background-color: transparent;
-        color: #E3D7FF; 
-    
+            display: flex;
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+            padding: 38px 30px 4px 10px;
+            border: none;
+            border-bottom: 1px solid #E3D7FF;
+            background-color: transparent;
+            color: #E3D7FF; 
         }
         
-
         .btn-login{
-        font-size: 18px;
-        width: 0;
-        height: 0;
-        position: absolute;
-        margin-top: -26px;
-        margin-left: 190px;
+            font-size: 18px;
+            width: 0;
+            height: 0;
+            position: absolute;
+            margin-top: -26px;
+            margin-left: 190px;
         }
 
         .form{
-        font-size: 18px;
-        
-        background-color: #ffffff;
-
-        width: 50px;
-        height: 80px;
-        padding-top: 20px;
+            font-size: 18px;
+            background-color: #ffffff;
+            width: 50px;
+            height: 80px;
+            padding-top: 20px;
         }
 
-        
-        /* Elementos de tag <fieldset>*/
         fieldset {
             border: 0;
         }
 
-        /* Elemento de tag <body> */
         body{
-            /* background-color: #F0F8FF; */
             font-family: 'Playfair Display', serif;
             font-size: 16px;
-            /* margin-left: 36%;
-            margin-top: 2%; */
         }
-
-       
 
         .nome-login ,.email-login, .senha-login{
             display: flex;
@@ -121,7 +105,6 @@
             background-color: #092040;
         }
 
-        /* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
         input, textarea, button {
             font-family: sans-serif;
             font-size: 1em;
@@ -139,12 +122,10 @@
             clear: both;
         }
 
-        /* Elementos de classe "campo" */
         .campo {
             margin-bottom: 1em;
         }
 
-        /* Elementos de classe "campo" de tag <label> */
         .campo label {
             margin-bottom: 0.2em;
             color: #ffffff;
@@ -165,13 +146,11 @@
             display: block;
         }
 
-
-        /* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
+        /* Elemento de classe "campo" com tag <input>, <select> e <textarea> com estado da pseudoclasse "focus"*/
         .campo input:focus, .campo select:focus, .campo textarea:focus {
             background: #d5d8ff;
         }
 
-        /* Elemento de classe "botao" */
         .botao-cadastro {
             font-size: 1.2em;
             background: #6891c5;
@@ -201,13 +180,11 @@
             cursor: pointer;
         }
 
-        
     </style>
 </head>
 <body>
     <header class="cadastro">
         <span id="burguer-cadastro" class="material-icons" onclick="clickMenu()">menu</span>
-
         <picture>
             <img src="imagens/logo sem fundo.png" alt="logo da página" class="img_logo">
         </picture> <!-- logo da empresa -->
@@ -215,7 +192,7 @@
             <form>
                 <input class="input-2" type="text" name="" placeholder="Digite o que procura...">
                 <button class="btn-login" type="submit"><i class="fa fa-search"></i></button>
-              </form>
+            </form>
         </div>
         <section>
             <menu id="itens">
@@ -264,6 +241,6 @@
         itens.style.display = 'block'
       }
     }
-  </script>
+    </script>
 </body>
 </html>
