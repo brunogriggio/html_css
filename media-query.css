@@ -20,18 +20,18 @@ Telas grandes: de 1200px pra frente*/
 
   span#burguer{
     display: block;
-    top: 86px;
+    top: 146px;
     padding: 18px;
     cursor: pointer;
-    margin-left: 22px;
+    left: 62px;
     font-size: 36px;
   }
 
   menu{
     display: block;
     position: sticky;
-    padding-left: 62%;
-    margin-top: 36px;  
+    padding-right: 102%;
+    margin-top: 98px;  
   }
 
   ul.menu {
@@ -40,7 +40,6 @@ Telas grandes: de 1200px pra frente*/
     color: white;
     height: 10%;
     width: 90px;
-    padding-top: 12%;
   }
 
   ul.menu li {
@@ -114,7 +113,6 @@ Telas grandes: de 1200px pra frente*/
   div .img-lancamento{
     display: block;
     margin: auto;
-    width: 66%;
     height: 90%;
     margin-top: 16px;
   }
